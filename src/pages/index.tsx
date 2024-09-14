@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <div className=" bg-black bg-opacity-50 relative ">
         <Header />
-        <Image className="w-full -mt-[80px] sm:h-[640px] md:h-[640px] lg:h-full" alt="" src={Background} />
+        <Image className=" sm:h-[640px] md:h-[640px] lg:h-full  -mt-[80px] w-full" alt="" src={Background} />
         <HomeContent />
       </div>
       <section className="bg-[#242424] h-[200px]"></section>
