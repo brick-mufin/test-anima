@@ -15,7 +15,7 @@ const links = [
 
 const Header: React.FC = () => {
   return (
-    <nav className={`h-[80px] sm:px-[40px] 2xl:mx-[192px] flex justify-center`}>
+    <div className={`h-[80px] sm:px-[40px] 2xl:mx-[192px] flex justify-center`}>
       <div className="flex items-center w-full sm:justify-between z-10">
         <div className="me-[80px]">
           <Image width={300} height={30} alt="" src={Logo} className="cursor-pointer" />
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
           <Image className="cursor-pointer" width={24} height={24} alt="" src={Hamburger} />
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 
